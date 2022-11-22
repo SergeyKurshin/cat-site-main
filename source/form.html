@@ -9,7 +9,106 @@
 </head>
 
 <body>
+  <header class="header">
+    <div class="header__items">
+      <div class="item item__logo">
+        <img src="/source/img/logo-mobile-cat.svg" alt="Logotype" width="40" height="40">
+      </div>
+      <div class="item item__logo">
+        <img src="/source/img/logo-mobile-cat-text.svg" alt="Logotype" width="100" height="100">
+      </div>
+    </div>
+    <div class="header__menu-button">☰</div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="form-contact">
+      <div class="form-contact__title"></div>
+      <p class="form-contact__text"></p>
+      <form class="form" action="https://echo.htmlacademy.ru" method="post">
 
+        <label for="name" class="form-contact__title-input form-contact__name">имя:*
+          <input placeholder="барсик" class="form-contact__input" type="text" id="name">
+        </label>
+
+        <label for="weight" class="form-contact__title-input form-contact__weight">вес:*</label>
+        <input class="form-contact__input" placeholder="7" type="number" id="weight">
+        <label for="age" class="form-contact__title-input form-contact__age">возраст(лет):</label>
+        <input class="form-contact__input" placeholder="7" type="number" id="age">
+
+        <div class="form-contact__radio">
+          <input type="radio" class="form-contact__input" name="council-choice" id="weight-loss">
+          <label for="weight-loss" class="form-contact__title-input council-choice">похудение</label>
+          <input type="radio" class="form-contact__input" name="council-choice" id="weight-gain">
+          <label for="weight-gain" class="form-contact__title-input council-choice">Набор массы</label>
+          <input type="radio" class="form-contact__input" name="council-choice" id="not-know">
+          <label for="not-know" class="form-contact__title-input council-choice">Не знаю (Нужен ваш совет)</label>
+        </div>
+
+        <div class="form-contact__info">
+          <div class="title-secondary">Контактные данные(владельца кота)</div>
+          <label for="mail" class="form-contact__mail">E-mail:*</label>
+          <input class="form-contact__input" placeholder="kuklachev@gmail.com" type="mail" name="" id="mail">
+          <label for="number-phone" class="form-contact__phone">Телефон:*</label>
+          <input class="form-contact__input" placeholder="8 (960) 900-60-90" type="phone" name="" id="number-phone">
+        </div>
+
+        <div class="form-contact__comment">
+          <div class="title-secondary">Комментарий</div>
+          <label for="text-area" class="form-contact__"></label>
+          <input class="form-contact__input" placeholder="Расскажите обо всех повАдках кота" type="text" name="text"
+            id="text-area">
+        </div>
+
+        <div class="form-contact__addition">
+          <div class="title-secondary">Дополнительно</div>
+          <input class="form-contact__input" placeholder="Расскажите обо всех повАдках кота" type="checkbox" name=""
+            id="none-sugar">
+          <label for="none-sugar" class="form-contact__">сахарозаменитель</label>
+          <input class="form-contact__input" placeholder="Расскажите обо всех повАдках кота" id="water" type="checkbox"
+            name="">
+          <label for="water" class="form-contact__">питьевая вода</label>
+          <input class="form-contact__input" placeholder="Расскажите обо всех повАдках кота" type="checkbox" name=""
+            id="milk">
+          <label for="milk" class="form-contact__">молоко</label>
+          <input class="form-contact__input" placeholder="Расскажите обо всех повАдках кота" type="checkbox" name=""
+            id="vitamins">
+          <label for="vitamins" class="form-contact__">витамины</label>
+        </div>
+        <button class="button" type="submit">отправить заявку</button>
+        <div class="form-contact__footnote">* — Обязательные поля</div>
+      </form>
+    </div>
+    <div class="contacts">
+      <div class="title-secondary contacts__title">приглашаем к сотрудничеству дилеров!</div>
+      <div class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
+      <div class="contacts__map"></div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__logo">
+      <img src="/source/img/logo-mobile-cat-text.svg" alt="Logotype" width="100" height="100">
+    </div>
+    <div class="social footer__social">
+      <a href="#" class="social__link"></a>
+      <div class="social__icon">
+        <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="">
+      </div>
+      </a>
+      <a href="#" class="social__link"></a>
+      <div class="social__icon">
+        <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="">
+      </div>
+      </a>
+      <a href="#" class="social__link"></a>
+      <div class="social__icon">
+        <img src="https://via.placeholder.com/150x150" width="150" height="150" alt="">
+      </div>
+      </a>
+    </div>
+    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a
+        href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+  </footer>
 </body>
 
 </html>
