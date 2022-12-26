@@ -1,0 +1,34 @@
+//search program
+.search-program {
+  background: no-repeat top url(/img/index-background-mobile.jpg);
+  color: #fff;
+  padding: 25px 0 22px;
+}
+.search-programm__content {
+  text-align: center;
+}
+.search-programm__title {
+  font-size: 32px;
+  line-height: 36px;
+  margin: 0 0 25px 0;
+}
+.search-programm__text {
+  text-transform: uppercase;
+  margin: 0 0 29px 0;
+}
+.button {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background: #68b738;
+  padding: 14px 26px;
+  text-transform: uppercase;
+  &:hover {
+    background: #5eaa2f;
+  }
+  &:active {
+    color: #ffffff70;
+  }
+}
+.search-programm__button {
+}
