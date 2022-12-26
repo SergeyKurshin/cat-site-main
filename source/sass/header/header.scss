@@ -1,0 +1,27 @@
+.container {
+  min-width: 280px;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+.logo {
+  &:hover {
+    opacity: 0.7;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+}
+.header__text {
+}
+.header__menu-button {
+}
