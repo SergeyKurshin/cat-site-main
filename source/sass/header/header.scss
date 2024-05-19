@@ -1,20 +1,18 @@
-//header
-.logo {
-  &:hover {
-    opacity: 0.7;
-  }
-  &:active {
-    opacity: 0.5;
-  }
-}
-.header {
+.menu {
+  padding: 1.25rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
-.header__logo {
+.menu__logo {
 }
-.header__text {
+.menu__logo-text {
 }
-.header__menu-button {
+.menu__button {
+}
+.menu__list {
+}
+.menu__list-items {
+}
+.menu__list-item {
 }
